@@ -10,6 +10,9 @@ SDL-ttf
 network  (install network-2.3)
 mtl
 
+that is:
+cabal install OpenGL QuickCheck bytestring binary MonadRandom SDL SDL-ttf network-2.3 mtl
+
 Compile with
 
 ghc --make SnakeServer.hs -O2
