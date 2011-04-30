@@ -1,0 +1,26 @@
+Depends on
+
+OpenGL
+QuickCheck
+bytestring
+binary
+MonadRandom
+SDL
+SDL-ttf
+network  (install network-2.3)
+mtl
+
+Compile with
+
+ghc --make SnakeServer.hs -O2
+ghc --make SnakeClient.hs -O2
+
+Run with
+
+./SnakeServer port
+./SnakeClient addr port name
+
+example:
+
+./SnakeServer 4000
+./SnakeClient localhost 4000 valdemar
